@@ -9,7 +9,8 @@ fazendo com que não aja uma repetição dentro do código um exemplo disso sér
 >> console.log('Você hojr ira ver um pequeno tutorial de funçoes em Js')
 >
 > }
+
 Este é um pequeno exemplo de uma função em java script
 
-##Criação de uma função 
+## Criação de uma função 
     
