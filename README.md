@@ -7,5 +7,5 @@ Funções são nada mais que uma maneira do programador crie blocos para melhora
 fazendo com que não aja uma repetição dentro do código um exemplo disso séria:
 > function tutorial() {
 >> console.log('Você hojr ira ver um pequeno tutorial de funçoes em Js')
-> }
+>}
     
