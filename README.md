@@ -13,4 +13,5 @@ fazendo com que não aja uma repetição dentro do código um exemplo disso sér
 Este é um pequeno exemplo de uma função em java script
 
 ## Criação de uma função 
-    
+Para criar uma função primeiro você precisar utilizar a plavara-chave ***function*** com isso já temos o inicio  de nossa função 
+após isso devemos dar um ***nome** isso seria a variável cotendo números,letras e algumas caracteres especiais 
