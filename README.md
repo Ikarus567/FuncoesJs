@@ -1,4 +1,4 @@
-# Funções Java Script
+oiio9o9# Funções Java Script
 Dentro deste repositório iremos discutir um pouco sobre funções dentro de java script com exemplos e montar um pequeno tutorial para poder definir e criar
 funçoes. E iremos explorar os três principais formatos de funções sendo **Declaration**, **Expression** e **Arrow**
 
@@ -38,14 +38,13 @@ Essa é a forma tradicional de se definir uma função e o formato que foi utili
 
 ##### Vantagens:
 
--
--
--
+- Debugging fácil 
+- Mais légivel 
 ##### Desvantagens:
 
-- Sem hoisting
-- Pode ser reassinada
-- Nome pode ser opcional podendo causar confusão dificultando o debugging
+- Sintaxe longa
+- Hoisting problemático 
+- Flexibilidade excessiva 
 
 #### Exemplo:
 ```js
