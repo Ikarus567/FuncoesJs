@@ -96,14 +96,9 @@ const par = function(num){
 };
 console.log(16)
 ```
-#### Exemplo 1:
+#### Exemplo 3:
 ```js
-const soma = function(a,b){
-    return a + b;
-};
-// Em vez de colocar o parametro no nome da função aqui neste formato o atribuimos a função
-console.log(Soma(10,7))
-//E para chamar a função colocamos o nome da variavel e os parametros.
+
 ```
 
 ##### Vantagens:
@@ -120,7 +115,7 @@ console.log(Soma(10,7))
 ### Arrow Function 
 Este é um formato que utiliza uma sintaxe mais curta, ela é ideal para funções rápidas e callbacks
 
-#### Exemplo:
+#### Exemplo 1:
 ```js
 const divi = (a,b) => a/b
 //Diferente dos outros formatos essa tem uma sintexe bem diferente onde o parametro é atribuido a variavel e utlizando uma arrow para montar o corpo da função e ela não utiliza do "function"
