@@ -43,9 +43,9 @@ Essa é a forma tradicional de se definir uma função e o formato que foi utili
 -
 ##### Desvantagens:
 
--
--
--
+- Sem hoisting
+- Pode ser reassinada
+- Nome pode ser opcional podendo causar confusão dificultando o debugging
 
 #### Exemplo:
 ```js
@@ -84,9 +84,9 @@ console.log(Soma(10,7))
 -
 ##### Desvantagens:
 
--
--
--
+- Sem hoisting
+- Pode ser reassinada
+- Nome pode ser opcional podendo causar confusão dificultando o debugging
 
 ### Arrow Function 
 Este é um formato que utiliza uma sintaxe mais curta, ela é ideal para funções rápidas e callbacks
