@@ -37,10 +37,12 @@ saudacao("Pedro");
 Essa é a forma tradicional de se definir uma função e o formato que foi utilizado nos exemplos anteriores.
 
 ##### Vantagens:
+
 -
 -
 -
 ##### Desvantagens:
+
 -
 -
 -
@@ -76,10 +78,12 @@ console.log(Soma(10,7))
 ```
 
 ##### Vantagens:
+
 -
 -
 -
 ##### Desvantagens:
+
 -
 -
 -
@@ -106,8 +110,9 @@ console.log(mensagem());
 ```
 
 ##### Vantagens:
--Sintaxe curta e concisa
--Ideal para callbacks e métodos de array
+
+- Sintaxe curta e concisa
+- Ideal para callbacks e métodos de array
 
 ##### Desvantagens:
 
