@@ -22,6 +22,14 @@ parametros da função esses os valores das funções ou as variáveis locais e 
 e dentro dela iremos colocar o código que queremos que seja repitível como foi mostradono exemplo anterior.
 
 ```js
-function 
+function saudacao(nome){
+console.log('Bom dia,', nome ,'!')
+}
+//aqui temos uma função com o nome de saudacao com um parametro com nome e dentro do bloco temos um console log
+saudacao("Pedro")
+//e agora chamamos a função e mudamos o parametro de nome para "Pedro"
+```
+
+## Os três tipos de formatos de funções
 
 
