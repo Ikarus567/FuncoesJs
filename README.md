@@ -15,7 +15,7 @@ function tutorial() {
 Este é um pequeno exemplo de uma função em java script
 
 ## Criação de uma função 
-Para criar uma função primeiro você precisar utilizar a plavara-chave ***function*** com isso já temos o inicio  de nossa função 
+Para criar uma função primeiro você precisar utilizar a plavara-chave ***function***(dependendo do formato que for usar) com isso já temos o inicio  de nossa função 
 após isso devemos dar um ***nome*** isso seria dar um nome pra função para que possa ser cahamada depois e assim como em variaveis 
 só pode ser usadas nela digitos, letras e alguns caracteres especias depois colocamos ***()*** colocamos esses parênteses para os 
 parametros da função esses os valores das funções ou as variáveis locais e por ultimo colocamos ***{}*** essas chaves serão o corpo da função 
@@ -62,5 +62,8 @@ Este é um formato que utiliza uma sintaxe mais curta, ela é ideal para funçõ
 ```js
 const divi = (a,b) => a/b
 //Diferente dos outros formatos essa tem uma sintexe bem diferente onde o parametro é atribuido a variavel e utlizando uma arrow para montar o corpo da função e ela não utiliza do "function"
-
+divi()
+//E como no formato "expression" chamamos o nome da varíavel
+```
+##
 
