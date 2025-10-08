@@ -9,7 +9,8 @@ com código mais légivel, organizado e que evite muitas repetições e segue um
 ```js
 function tutorial() {
    console.log('Você hoje ira ver um pequeno tutorial de funçoes em Js');
-}
+
+};
 ```
 
 Este é um pequeno exemplo de uma função em java script
@@ -25,7 +26,7 @@ e dentro dela iremos colocar o código que queremos que seja repitível como foi
 ```js
 function saudacao(nome){
    console.log('Bom dia,', nome ,'!');
-}
+};
 //aqui temos uma função com o nome de saudacao com um parametro com nome e dentro do bloco temos um console log
 saudacao("Pedro");
 //e agora chamamos a função e mudamos o parametro de nome para "Pedro"
@@ -50,7 +51,7 @@ function subtracao(a,b){
    return a - b;
 }
 
-console.log(subtracao(7,3))
+console.log(subtracao(7,3));
 ```
 Essas são funções com prioridade de carregamento, isso quer dizer que essas são funções onde o interpretador ira dar prioridade de "leitura" para
 este formato de função.
@@ -61,12 +62,19 @@ Este é um formato onde a função é atríbuida a uma variavel
 #### Exemplo:
 ```js
 const soma = function(a,b){
-    return a + b
-}
+    return a + b;
+};
 // Em vez de colocar o parametro no nome da função aqui neste formato o atribuimos a função
 console.log(Soma(10,7))
 //E para chamar a função colocamos o nome da variavel e os parametros.
 ```
+
+#### Exemplo 2:
+```js
+
+
+```
+
 ##### Vantagens:
 -
 -
@@ -86,6 +94,17 @@ const divi = (a,b) => a/b
 divi()
 //E como no formato "expression" chamamos o nome da varíavel
 ```
+
+#### Exemplo 2:
+```js
+const mensagem = () => {
+  const nome = "Henrique";
+  return "Boa Noite," + nome + "!";
+};
+
+console.log(mensagem());
+```
+
 ##### Vantagens:
 -
 -
