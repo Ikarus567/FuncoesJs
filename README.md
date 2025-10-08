@@ -6,7 +6,7 @@ funçoes. E iremos explorar os três principais formatos de funções sendo **De
 Funções são nada mais que uma maneira do programador crie "blocos reutilizaveis" para fazer uma determinada tarefa, e também para melhorar a vida do programador
 com código mais légivel, organizado e que evite muitas repetições e segue um exemplo de uma função em Js.
 
-``` 
+```js
 function tutorial() {
    console.log('Você hoje ira ver um pequeno tutorial de funçoes em Js');
 }
@@ -22,7 +22,7 @@ parametros da função esses os valores das funções ou as variáveis locais e 
 e dentro dela iremos colocar o código que queremos que seja repitível como foi mostradono exemplo anterior.
 
 #### Exemplo:
-```
+```js
 function saudacao(nome){
    console.log('Bom dia,', nome ,'!');
 }
@@ -36,7 +36,7 @@ saudacao("Pedro");
 Essa é a forma tradicional de se definir uma função e o formato que foi utilizado nos exemplos anteriores.
 
 #### Exemplo:
-```
+```js
 function subtracao(a,b){
    return a - b;
 }
@@ -50,7 +50,7 @@ este formato de função.
 Este é um formato onde a função é atríbuida a uma variavel
 
 #### Exemplo:
-```
+```js
 const soma = function(a,b){
     return a + b
 }
@@ -66,7 +66,7 @@ console.log(Soma(10,7))
 Este é um formato que utiliza uma sintaxe mais curta, ela é ideal para funções rápidas e callbacks
 
 #### Exemplo:
-```
+```js
 const divi = (a,b) => a/b
 //Diferente dos outros formatos essa tem uma sintexe bem diferente onde o parametro é atribuido a variavel e utlizando uma arrow para montar o corpo da função e ela não utiliza do "function"
 divi()
