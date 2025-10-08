@@ -1,4 +1,4 @@
-oiio9o9# Funções Java Script
+# Funções Java Script
 Dentro deste repositório iremos discutir um pouco sobre funções dentro de java script com exemplos e montar um pequeno tutorial para poder definir e criar
 funçoes. E iremos explorar os três principais formatos de funções sendo **Declaration**, **Expression** e **Arrow**
 
