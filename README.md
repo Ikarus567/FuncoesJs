@@ -23,13 +23,27 @@ e dentro dela iremos colocar o código que queremos que seja repitível como foi
 
 ```js
 function saudacao(nome){
-console.log('Bom dia,', nome ,'!')
+console.log('Bom dia,', nome ,'!');
 }
 //aqui temos uma função com o nome de saudacao com um parametro com nome e dentro do bloco temos um console log
-saudacao("Pedro")
+saudacao("Pedro");
 //e agora chamamos a função e mudamos o parametro de nome para "Pedro"
 ```
 
 ## Os três tipos de formatos de funções
+### Function Declaration
+Essa é a forma tradicional de se definir uma função e o formato que foi utilizado nos exemplos anteriores.
+
+```js
+function subtracao(a,b){
+return a + b;
+}
+
+console.log(subtracao(7,3))
+```
+Essas são funções com prioridade de carregamento, isso quer dizer que essas são funções onde o interpretador ira dar prioridade de "leitura" para
+este formato de função.
+
+### Function Expression
 
 
