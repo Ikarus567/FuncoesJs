@@ -46,6 +46,15 @@ console.log(subtracao(7,3))
 Essas são funções com prioridade de carregamento, isso quer dizer que essas são funções onde o interpretador ira dar prioridade de "leitura" para
 este formato de função.
 
+##### Vantagens:
+-
+-
+-
+##### Desvantagens:
+-
+-
+-
+
 ### Function Expression
 Este é um formato onde a função é atríbuida a uma variavel
 
