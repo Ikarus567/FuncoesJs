@@ -21,6 +21,7 @@ só pode ser usadas nela digitos, letras e alguns caracteres especias depois col
 parametros da função esses os valores das funções ou as variáveis locais e por ultimo colocamos ***{}*** essas chaves serão o corpo da função 
 e dentro dela iremos colocar o código que queremos que seja repitível como foi mostradono exemplo anterior.
 
+#### Exemplo:
 ```js
 function saudacao(nome){
    console.log('Bom dia,', nome ,'!');
@@ -34,6 +35,7 @@ saudacao("Pedro");
 ### Function Declaration
 Essa é a forma tradicional de se definir uma função e o formato que foi utilizado nos exemplos anteriores.
 
+#### Exemplo:
 ```js
 function subtracao(a,b){
    return a - b;
@@ -47,6 +49,7 @@ este formato de função.
 ### Function Expression
 Este é um formato onde a função é atríbuida a uma variavel
 
+#### Exemplo:
 ```js
 const soma = function(a,b){
     return a + b
@@ -59,11 +62,14 @@ console.log(Soma(10,7))
 ### Arrow Function 
 Este é um formato que utiliza uma sintaxe mais curta, ela é ideal para funções rápidas e callbacks
 
+#### Exemplo:
 ```js
 const divi = (a,b) => a/b
 //Diferente dos outros formatos essa tem uma sintexe bem diferente onde o parametro é atribuido a variavel e utlizando uma arrow para montar o corpo da função e ela não utiliza do "function"
 divi()
 //E como no formato "expression" chamamos o nome da varíavel
 ```
-##
+## Conclusão
+Com esse pequeno tutorial de funções você deve ter entendido como se deve criar uma função em java script, para poder melhorar o seu código e os diferentes
+tipos de formatos que uma função pode ter cada uma com uma vantagem e desvantagem que o programador decide qual será ideal para ele. 
 
