@@ -8,7 +8,7 @@ com código mais légivel, organizado e que evite muitas repetições e segue um
 
 ```js 
 function tutorial() {
- console.log('Você hoje ira ver um pequeno tutorial de funçoes em Js');
+   console.log('Você hoje ira ver um pequeno tutorial de funçoes em Js');
 }
 ```
 
@@ -23,7 +23,7 @@ e dentro dela iremos colocar o código que queremos que seja repitível como foi
 
 ```js
 function saudacao(nome){
-console.log('Bom dia,', nome ,'!');
+   console.log('Bom dia,', nome ,'!');
 }
 //aqui temos uma função com o nome de saudacao com um parametro com nome e dentro do bloco temos um console log
 saudacao("Pedro");
@@ -36,7 +36,7 @@ Essa é a forma tradicional de se definir uma função e o formato que foi utili
 
 ```js
 function subtracao(a,b){
-return a + b;
+   return a - b;
 }
 
 console.log(subtracao(7,3))
@@ -45,5 +45,22 @@ Essas são funções com prioridade de carregamento, isso quer dizer que essas s
 este formato de função.
 
 ### Function Expression
+Este é um formato onde a função é atríbuida a uma variavel
+
+```js
+const soma = function(a,b){
+    return a + b
+}
+// Em vez de colocar o parametro no nome da função aqui neste formato o atribuimos a função
+console.log(Soma(10,7))
+//E para chamar a função colocamos o nome da variavel e os parametros.
+```
+
+### Arrow Function 
+Este é um formato que utiliza uma sintaxe mais curta, ela é ideal para funções rápidas e callbacks
+
+```js
+const divi = (a,b) => a/b
+//Diferente dos outros formatos essa tem uma sintexe bem diferente onde o parametro é atribuido a variavel e utlizando uma arrow para montar o corpo da função e ela não utiliza do "function"
 
 
