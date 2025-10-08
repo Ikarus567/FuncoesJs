@@ -110,7 +110,7 @@ console.log(mensagem());
 -Ideal para callbacks e métodos de array
 
 ##### Desvantagens:
--Não pode ser usado como construtor
+- Não pode ser usado como construtor
 - Sintaxe confusa em funções complexas
 - Complicado com funções anônimas 
 
