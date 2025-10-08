@@ -25,7 +25,7 @@ e dentro dela iremos colocar o código que queremos que seja repitível como foi
 #### Exemplo :
 ```js
 function saudacao(nome){
-   console.log(´Bom dia, ${nome} !´);
+   console.log('Bom dia, ' nome ,', !');
 };
 //aqui temos uma função com o nome de saudacao com um parametro com nome e dentro do bloco temos um console log
 saudacao("Pedro");
