@@ -49,7 +49,7 @@ Essa é a forma tradicional de se definir uma função e o formato que foi utili
 ```js
 function subtracao(a,b){
    return a - b;
-}
+};
 
 console.log(subtracao(7,3));
 ```
@@ -59,7 +59,7 @@ este formato de função.
 ### Function Expression
 Este é um formato onde a função é atríbuida a uma variavel
 
-#### Exemplo:
+#### Exemplo 1:
 ```js
 const soma = function(a,b){
     return a + b;
@@ -106,13 +106,13 @@ console.log(mensagem());
 ```
 
 ##### Vantagens:
--
--
--
+-Sintaxe curta e concisa
+-Ideal para callbacks e métodos de array
+
 ##### Desvantagens:
--
--
--
+-Não pode ser usado como construtor
+-Sintaxe confusa em funções complexas
+-Complicado com funções anônimas 
 
 
 ## Conclusão
