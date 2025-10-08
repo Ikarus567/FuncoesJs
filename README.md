@@ -10,6 +10,7 @@ com código mais légivel, organizado e que evite muitas repetições e segue um
 function tutorial() {
    console.log('Você hoje ira ver um pequeno tutorial de funçoes em Js');
 };
+tutorial()
 ```
 
 Este é um pequeno exemplo de uma função em java script
@@ -21,7 +22,7 @@ só pode ser usadas nela digitos, letras e alguns caracteres especias depois col
 parametros da função esses os valores das funções ou as variáveis locais e por ultimo colocamos ***{}*** essas chaves serão o corpo da função 
 e dentro dela iremos colocar o código que queremos que seja repitível como foi mostradono exemplo anterior.
 
-#### Exemplo:
+#### Exemplo :
 ```js
 function saudacao(nome){
    console.log('Bom dia,', nome ,'!');
@@ -45,13 +46,32 @@ Essa é a forma tradicional de se definir uma função e o formato que foi utili
 - Hoisting problemático 
 - Flexibilidade excessiva 
 
-#### Exemplo:
+#### Exemplo 1: 
 ```js
 function subtracao(a,b){
    return a - b;
 };
 
 console.log(subtracao(7,3));
+```
+
+#### Exemplo 2:
+```js
+function adeus(nome) {
+   return "Boa noite " + nome + ", até a proxima visita !";
+};
+
+console.log(adeus("Pedro"));
+```
+
+#### Exemplo 3:
+```js
+let hora_aula = "15:20"
+function aluno_entrada(nome) {
+   return "Boa tarde " + nome + " sua aula das " + hora_aula + " está prete a começar !";
+};
+
+console.log(aluno_entrada("Maria"));
 ```
 Essas são funções com prioridade de carregamento, isso quer dizer que essas são funções onde o interpretador ira dar prioridade de "leitura" para
 este formato de função.
@@ -75,6 +95,15 @@ const par = function(num){
    return num % 2 == 0;
 };
 console.log(16)
+```
+#### Exemplo 1:
+```js
+const soma = function(a,b){
+    return a + b;
+};
+// Em vez de colocar o parametro no nome da função aqui neste formato o atribuimos a função
+console.log(Soma(10,7))
+//E para chamar a função colocamos o nome da variavel e os parametros.
 ```
 
 ##### Vantagens:
