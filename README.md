@@ -1,10 +1,10 @@
 # Funções Java Script
-Agora eu irei falar um pouco sobre funções dentro de java script com exemplos e montar um pequeno tutorial para poder definir e criar
+Dentro deste repositório iremos discutir um pouco sobre funções dentro de java script com exemplos e montar um pequeno tutorial para poder definir e criar
 funçoes e os formatos **Declaration**, **Expression** e **Arrow**
 
 ## O que são funções ?
-Funções são nada mais que uma maneira do programador crie "blocos" para melhorar a visualisação do código como também facilitar a vida deles 
-fazendo com que não aja uma repetição dentro do código um exemplo disso séria:
+Funções são nada mais que uma maneira do programador crie "blocos reutilizaveis" para fazer uma determinada tarefa, e também para melhorar a vida do programador
+com código mais légivel, organizado e que evite muitas repetições e segue um exemplo de uma função em Js.
 > function tutorial() {
 >> console.log('Você hojr ira ver um pequeno tutorial de funçoes em Js');
 >
@@ -14,4 +14,4 @@ Este é um pequeno exemplo de uma função em java script
 
 ## Criação de uma função 
 Para criar uma função primeiro você precisar utilizar a plavara-chave ***function*** com isso já temos o inicio  de nossa função 
-após isso devemos dar um ***nome** isso seria a variável cotendo números,letras e algumas caracteres especiais 
+após isso devemos dar um ***nome** isso seria a variável cotendo números, letras e alguns caracteres especiais 
