@@ -35,6 +35,15 @@ saudacao("Pedro");
 ### Function Declaration
 Essa é a forma tradicional de se definir uma função e o formato que foi utilizado nos exemplos anteriores.
 
+##### Vantagens:
+-
+-
+-
+##### Desvantagens:
+-
+-
+-
+
 #### Exemplo:
 ```js
 function subtracao(a,b){
@@ -45,15 +54,6 @@ console.log(subtracao(7,3))
 ```
 Essas são funções com prioridade de carregamento, isso quer dizer que essas são funções onde o interpretador ira dar prioridade de "leitura" para
 este formato de função.
-
-##### Vantagens:
--
--
--
-##### Desvantagens:
--
--
--
 
 ### Function Expression
 Este é um formato onde a função é atríbuida a uma variavel
@@ -68,8 +68,13 @@ console.log(Soma(10,7))
 //E para chamar a função colocamos o nome da variavel e os parametros.
 ```
 ##### Vantagens:
-
-
+-
+-
+-
+##### Desvantagens:
+-
+-
+-
 
 ### Arrow Function 
 Este é um formato que utiliza uma sintaxe mais curta, ela é ideal para funções rápidas e callbacks
@@ -81,6 +86,16 @@ const divi = (a,b) => a/b
 divi()
 //E como no formato "expression" chamamos o nome da varíavel
 ```
+##### Vantagens:
+-
+-
+-
+##### Desvantagens:
+-
+-
+-
+
+
 ## Conclusão
 Com esse pequeno tutorial de funções você deve ter entendido como se deve criar uma função em java script, para poder melhorar o seu código e os diferentes
 tipos de formatos que uma função pode ter cada uma com uma vantagem e desvantagem que o programador decide qual será ideal para ele. 
