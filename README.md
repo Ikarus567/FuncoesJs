@@ -111,8 +111,8 @@ console.log(mensagem());
 
 ##### Desvantagens:
 -Não pode ser usado como construtor
--Sintaxe confusa em funções complexas
--Complicado com funções anônimas 
+- Sintaxe confusa em funções complexas
+- Complicado com funções anônimas 
 
 
 ## Conclusão
