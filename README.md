@@ -9,7 +9,6 @@ com código mais légivel, organizado e que evite muitas repetições e segue um
 ```js
 function tutorial() {
    console.log('Você hoje ira ver um pequeno tutorial de funçoes em Js');
-
 };
 ```
 
@@ -72,15 +71,17 @@ console.log(Soma(10,7))
 
 #### Exemplo 2:
 ```js
-
-
+const par = function(num){
+   return num % 2 == 0;
+};
+console.log(16)
 ```
 
 ##### Vantagens:
 
--
--
--
+- Mais previsível 
+- Atribuição flexível 
+- Reorganização simples 
 ##### Desvantagens:
 
 - Sem hoisting
