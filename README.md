@@ -8,7 +8,7 @@ com código mais légivel, organizado e que evite muitas repetições e segue um
 
 ```js
 function tutorial() {
-   console.log('Você hoje ira ver um pequeno tutorial de funçoes em Js');
+   console.log('Você hoje ira ver um pequeno tutorial de funçoes em Js !');
 };
 tutorial()
 ```
@@ -85,7 +85,7 @@ const soma = function(a,b){
     return a + b;
 };
 // Em vez de colocar o parametro no nome da função aqui neste formato o atribuimos a função
-console.log(Soma(10,7))
+console.log(soma(10,7))
 //E para chamar a função colocamos o nome da variavel e os parametros.
 ```
 
@@ -94,7 +94,7 @@ console.log(Soma(10,7))
 const par = function(num){
    return num % 2 == 0;
 };
-console.log(16)
+console.log(par(16))
 ```
 ##### - Vantagens:
 
@@ -114,7 +114,7 @@ Este é um formato que utiliza uma sintaxe mais curta, ela é ideal para funçõ
 ```js
 const divi = (a,b) => a/b
 //Diferente dos outros formatos essa tem uma sintexe bem diferente onde o parametro é atribuido a variavel e utlizando uma arrow para montar o corpo da função e ela não utiliza do "function"
-divi()
+console.log(divi(12,2))
 //E como no formato "expression" chamamos o nome da varíavel
 ```
 
@@ -122,7 +122,7 @@ divi()
 ```js
 const mensagem = () => {
   const nome = "Henrique";
-  return "Boa Noite," + nome + "!";
+  return "Boa Noite, " + nome + " !";
 };
 
 console.log(mensagem());
